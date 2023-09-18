@@ -1,3 +1,3 @@
 An exciting new project!
 
-By: Zijie Wang
+By: Zijie Wang & Vaishnavi
