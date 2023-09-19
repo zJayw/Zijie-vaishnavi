@@ -1,16 +1,16 @@
 beverage = "Cola"
-count = 5
+for count in range(100,1,-1):
+    print(count, "bottles of", beverage, "on the wall")
+    print(count, "bottles of", beverage)
 
-print(count, "bottles of", beverage, "on the wall")
-print(count, "bottles of", "water")
-print("Take one down, pass it around")
-count = count - 3
-print(count, "bottles of", beverage, "on the wall")
+    if count == 5:
+        print("If one of those bottles should happen to fall,", count-1, "bottles of", beverage, "on the wall...")
+    else:
+        print("Take one down, pass it around")
+    
+    print(count-1, "bottles of", beverage, "on the wall")
+    print("")
 
-print("")
 
-print(count, "bottles of", beverage, "on the wall")
-print(count, "bottles of", beverage)
-print("Take one down, pass it around")
-count = count - 2
-print(count, "bottles of", beverage, "on the wall")
+print("No more bottles of", beverage, "on the wall, no more bottles of", beverage + ".")
+print("We've taken them down and passed them around; now we're drunk and passed out!")
